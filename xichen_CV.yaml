@@ -1,0 +1,230 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.3/schema.json
+cv:
+  name: Xi Chen Shen
+  location: Montreal
+  email: xishec@gmail.com
+  phone: +1-514-746-6538
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: linkedin.com/in/xishec
+  sections:
+    education:
+      - institution: Stanford University
+        area: Software Engineering.
+        degree: BS
+        grade:
+        date:
+        start_date: 2018
+        end_date: 2022
+        location: Montreal, QC, Canada
+        summary:
+        highlights:
+          - GPA 3.92/4 with Honorable mention.
+          - Admission Scholarship from the Polytechnique Foundation.
+          - 1st place at 2017 Google Tech Challenge at Polytechnique Montreal.
+          - 1st place Philip and Lily Malouf Award from school department.
+    experience:
+      - company: Expedia Group
+        position: Software Development Engineer II
+        date:
+        start_date: 2023-10
+        end_date: present
+        location: 
+        summary:
+        highlights:
+          - Led migration of React web service to AWS Graviton3 (ARM), using BlazeMeter & Datadog testing, cutting compute costs ~20% (~$15K/month).
+
+          - Created Mojo, a cross-platform server-driven UI framework, cutting feature implementation from 4 developers to 1, speeding delivery 60–80%, reducing cleanup by 50%, and eliminating many native releases.
+
+          - Delivered Hotels.com web redesign (React + Kotlin), rolled out to 100% of direct traffic, boosting high-value engagement with +0.5% shopping visits, +0.8% purchase conversion, +0.6% sign-ups, +0.7% successful sign-ins.
+      - company: Expedia Group
+        position: Software Development Engineer I
+        date:
+        start_date: 2022-08
+        end_date: 2023-10
+        location: 
+        summary:
+        highlights:
+          - Built a web platform for TIER 1 server config management (React, Kotlin, GitHub Actions), enabling live dynamic updates, improved error handling, full change history, and conflict-free merges.
+      - company: PolyHx student club
+        position: VP of Technology
+        date:
+        start_date: 2020-08
+        end_date: 2022-05
+        location: 
+        summary:
+        highlights:
+        - Led the development of ReadyAiCode, a virtual platform to host an 24h AI game bot hackathon.
+        - Implement a dashboard and a game interface using MEAN stack, and game hosting servers using C#.
+        - Migrated Kubernetes and VMs from Azure to Google Cloud Platform.
+        - Automated CI&CD on Google Cloud Platform.
+      - company: Heyday.ai
+        position: Software Development Engineer Intern
+        date:
+        start_date: 2020-05
+        end_date: 2020-08
+        location: 
+        summary:
+        highlights:
+          - Developed and deployed 8+ chatbots using Node.js and AWS cloud fonctions by collaborating with AI Team and Design Team.
+
+          - Implemented new features like price drop and restock notification by using different Ecommerce APIs and Facebook Messenger. 
+    skills:
+      - label: Programming
+        details: Proficient with React with typscript, Kotlin, DevOps and UX design; good understanding of Angular, C++, Java.
+      - label: AI tools
+        details: Proficient with Copilot, Cursor and Codex.
+      - label: Languages
+        details: 'English (fluent), French (native), Chinese (native)'
+  sort_entries: none
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Roboto
+    font_size: 10pt
+    leading: 0.5em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: Roboto
+    name_font_size: 30pt
+    name_bold: true
+    small_caps_for_name: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Roboto
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    use_urls_as_placeholders_for_connections: false
+    make_connections_links: true
+    alignment: center
+  section_titles:
+    type: with-partial-line
+    font_family: Roboto
+    font_size: 1.5em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.5cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.5em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    nested_bullet: '-'
+    top_margin: 1em
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 1em
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '**DEGREE**'
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2026-01-26'
+  bold_keywords: []
+  sort_entries: none
