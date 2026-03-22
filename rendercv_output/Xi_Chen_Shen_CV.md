@@ -2,7 +2,7 @@
 
 - Phone: +1 514 746 6538
 - Email: [xishec@gmail.com](mailto:xishec@gmail.com)
-- Location: Montreal
+- Location: Montreal, QC, Canada
 - LinkedIn: [linkedin.com/in/xishec](https://linkedin.com/in/linkedin.com/in/xishec)
 
 
@@ -26,6 +26,12 @@
 - Created Mojo, a cross-platform server-driven UI framework, cutting feature implementation from 4 developers to 1, speeding delivery 60–80%, reducing cleanup by 50%, and eliminating many native releases.
 - Delivered Hotels.com web redesign (React + Kotlin), rolled out to 100% of direct traffic, boosting high-value engagement with +0.5% shopping visits, +0.8% purchase conversion, +0.6% sign-ups, +0.7% successful sign-ins.
 
+## McGill Bird Observatory, Volunteer Software Developer
+
+- May 2023 – present
+- Built BirbsQuiz, a React + Firebase bird-identification quiz with region-based audio and image datasets, multilingual naming, and saved-progress flows for bird-learning and outreach.
+- Developed MBO Database, a React/TypeScript, Firebase, and Electron data management system for bird banding operations, including offline caching, sync queues, reporting views, and species insights.
+
 ## Expedia Group, Software Development Engineer I
 
 - Aug 2022 – Oct 2023
@@ -36,17 +42,15 @@
 - Aug 2020 – May 2022
 - Led the development of ReadyAiCode, a virtual platform to host an 24h AI game bot hackathon.
 - Implement a dashboard and a game interface using MEAN stack, and game hosting servers using C#.
-- Migrated Kubernetes and VMs from Azure to Google Cloud Platform.
-- Automated CI&CD on Google Cloud Platform.
+- Migrated Kubernetes and VMs from Azure to Google Cloud Platform with automated CI&CD.
 
 ## Heyday.ai, Software Development Engineer Intern
 
 - May 2020 – Aug 2020
-- Developed and deployed 8+ chatbots using Node.js and AWS cloud fonctions by collaborating with AI Team and Design Team.
-- Implemented new features like price drop and restock notification by using different Ecommerce APIs and Facebook Messenger.
+- Developed and deployed 8+ chatbots using Node.js and AWS cloud functions by collaborating with AI Team and Design Team.
+- Implemented new features like price drop and restock notification by using different E-commerce APIs and Facebook Messenger.
 
 # Skills
 
-- Programming: Proficient with React with typscript, Kotlin, DevOps and UX design; good understanding of Angular, C++, Java.
-- AI tools: Proficient with Copilot, Cursor and Codex.
+- Programming: React with Typescript, Kotlin, Node.js, GCP and AWS DevOps, UX design
 - Languages: English (fluent), French (native), Chinese (native)

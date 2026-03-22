@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.3/schema.json
 cv:
   name: Xi Chen Shen
-  location: Montreal
+  location: Montreal, QC, Canada
   email: xishec@gmail.com
   phone: +1-514-746-6538
   website:
@@ -38,6 +38,17 @@ cv:
           - Created Mojo, a cross-platform server-driven UI framework, cutting feature implementation from 4 developers to 1, speeding delivery 60–80%, reducing cleanup by 50%, and eliminating many native releases.
 
           - Delivered Hotels.com web redesign (React + Kotlin), rolled out to 100% of direct traffic, boosting high-value engagement with +0.5% shopping visits, +0.8% purchase conversion, +0.6% sign-ups, +0.7% successful sign-ins.
+      - company: McGill Bird Observatory
+        position: Volunteer Software Developer
+        date:
+        start_date: 2023-05
+        end_date: present
+        location:
+        summary:
+        highlights:
+          - Built BirbsQuiz, a React + Firebase bird-identification quiz with region-based audio and image datasets, multilingual naming, and saved-progress flows for bird-learning and outreach.
+
+          - Developed MBO Database, a React/TypeScript, Firebase, and Electron data management system for bird banding operations, including offline caching, sync queues, reporting views, and species insights.
       - company: Expedia Group
         position: Software Development Engineer I
         date:
@@ -57,8 +68,7 @@ cv:
         highlights:
         - Led the development of ReadyAiCode, a virtual platform to host an 24h AI game bot hackathon.
         - Implement a dashboard and a game interface using MEAN stack, and game hosting servers using C#.
-        - Migrated Kubernetes and VMs from Azure to Google Cloud Platform.
-        - Automated CI&CD on Google Cloud Platform.
+        - Migrated Kubernetes and VMs from Azure to Google Cloud Platform with automated CI&CD.
       - company: Heyday.ai
         position: Software Development Engineer Intern
         date:
@@ -67,14 +77,12 @@ cv:
         location: 
         summary:
         highlights:
-          - Developed and deployed 8+ chatbots using Node.js and AWS cloud fonctions by collaborating with AI Team and Design Team.
+          - Developed and deployed 8+ chatbots using Node.js and AWS cloud functions by collaborating with AI Team and Design Team.
 
-          - Implemented new features like price drop and restock notification by using different Ecommerce APIs and Facebook Messenger. 
+          - Implemented new features like price drop and restock notification by using different E-commerce APIs and Facebook Messenger. 
     skills:
       - label: Programming
-        details: Proficient with React with typscript, Kotlin, DevOps and UX design; good understanding of Angular, C++, Java.
-      - label: AI tools
-        details: Proficient with Copilot, Cursor and Codex.
+        details: React with Typescript, Kotlin, Node.js, GCP and AWS DevOps, UX design
       - label: Languages
         details: 'English (fluent), French (native), Chinese (native)'
   sort_entries: none
@@ -115,7 +123,7 @@ design:
     horizontal_space_between_connections: 0.5cm
     connections_font_family: Roboto
     separator_between_connections: ''
-    use_icons_for_connections: true
+    use_icons_for_connections: false
     use_urls_as_placeholders_for_connections: false
     make_connections_links: true
     alignment: center

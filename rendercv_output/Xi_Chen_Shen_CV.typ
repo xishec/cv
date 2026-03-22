@@ -27,7 +27,7 @@
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
-#let design-header-use-icons-for-connections = true
+#let design-header-use-icons-for-connections = false
 #let design-header-name-font-family = "Roboto"
 #let design-header-name-font-size = 30pt
 #let design-header-name-bold = true
@@ -35,7 +35,7 @@
 #let design-header-connections-font-family = "Roboto"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
-#let design-header-use-icons-for-connections = true
+#let design-header-use-icons-for-connections = false
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = ""
 #let design-header-alignment = center
@@ -55,8 +55,8 @@
 #let design-page-bottom-margin = 2cm
 #let design-page-left-margin = 2cm
 #let design-page-right-margin = 2cm
-#let design-page-show-last-updated-date = true
-#let design-page-show-page-numbering = true
+#let design-page-show-last-updated-date = false
+#let design-page-show-page-numbering = false
 #let design-links-underline = false
 #let design-entry-types-education-entry-degree-column-width = 1cm
 #let date = datetime.today()
@@ -465,10 +465,10 @@
 
 // Print connections:
 #let connections-list = (
-  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Montreal],
-  [#box(original-link("mailto:xishec@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)xishec\@gmail.com])],
-  [#box(original-link("tel:+1-514-746-6538")[#fa-icon("phone", size: 0.9em) #h(0.05cm)\(514\) 746-6538])],
-  [#box(original-link("https://linkedin.com/in/linkedin.com/in/xishec")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)linkedin.com\/in\/xishec])],
+  [Montreal, QC, Canada],
+  [#box(original-link("mailto:xishec@gmail.com")[xishec\@gmail.com])],
+  [#box(original-link("tel:+1-514-746-6538")[\(514\) 746-6538])],
+  [#box(original-link("https://linkedin.com/in/linkedin.com/in/xishec")[linkedin.com\/in\/xishec])],
 )
 #connections(connections-list)
 
@@ -516,6 +516,21 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
+    #strong[McGill Bird Observatory], Volunteer Software Developer
+  ],
+  right-content: [
+    May 2023 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Built BirbsQuiz, a React + Firebase bird-identification quiz with region-based audio and image datasets, multilingual naming, and saved-progress flows for bird-learning and outreach.],[Developed MBO Database, a React\/TypeScript, Firebase, and Electron data management system for bird banding operations, including offline caching, sync queues, reporting views, and species insights.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[Expedia Group], Software Development Engineer I
   ],
   right-content: [
@@ -539,7 +554,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the development of ReadyAiCode, a virtual platform to host an 24h AI game bot hackathon.],[Implement a dashboard and a game interface using MEAN stack, and game hosting servers using C\#.],[Migrated Kubernetes and VMs from Azure to Google Cloud Platform.],[Automated CI&CD on Google Cloud Platform.],)
+    #v(design-highlights-top-margin);#highlights([Led the development of ReadyAiCode, a virtual platform to host an 24h AI game bot hackathon.],[Implement a dashboard and a game interface using MEAN stack, and game hosting servers using C\#.],[Migrated Kubernetes and VMs from Azure to Google Cloud Platform with automated CI&CD.],)
   ],
 )
 
@@ -554,7 +569,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed and deployed 8+ chatbots using Node.js and AWS cloud fonctions by collaborating with AI Team and Design Team.],[Implemented new features like price drop and restock notification by using different Ecommerce APIs and Facebook Messenger.],)
+    #v(design-highlights-top-margin);#highlights([Developed and deployed 8+ chatbots using Node.js and AWS cloud functions by collaborating with AI Team and Design Team.],[Implemented new features like price drop and restock notification by using different E-commerce APIs and Facebook Messenger.],)
   ],
 )
 
@@ -564,11 +579,7 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming:] Proficient with React with typscript, Kotlin, DevOps and UX design; good understanding of Angular, C++, Java]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[AI tools:] Proficient with Copilot, Cursor and Codex]
+  content: [#strong[Programming:] React with Typescript, Kotlin, Node.js, GCP and AWS DevOps, UX design]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
