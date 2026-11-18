@@ -8,19 +8,20 @@
 
 # Summary
 
-Full-stack engineer with 4+ years at Expedia Group, specializing in server-driven UI and design systems. Created the Mojo framework and delivered +0.8% conversion, 60–80% faster feature delivery, and ~$15K/month in cloud savings.
+AI-first full-stack engineer with 4+ years at Expedia, shipping **about half of production PRs** with coding agents and building agentic tools, including Claude Code skills, MCP integrations, and AI design-to-code pipelines.
 
 # Experience
 
 ## Expedia Group, Software Development Engineer II
 
 - Oct 2023 – present
+- Shipped a Claude Code agent skill to the team plugin that turns a Figma design into ready-to-review CMS banner records via the Figma and Experience Manager MCP servers, with human approval before every write.
+- Prototyped an AI design-to-code pipeline where Figma MCP extracts the spec, Claude Code generates Kotlin DSL UI code, and JSON tests plus Playwright screenshots verify the result against the design.
+- Built personal Claude Code agents for on-call triage (page to root-cause analysis and draft reply) and PR review comments, and used an AI skill to raise the homepage web repo from 3/7 to 7/7 standards.
 - Created Mojo, a cross-platform server-driven UI framework that cut feature builds from **4 developers to 1**, sped delivery 60–80%, halved A/B test cleanup effort, and removed the need for many native app releases.
+- Built reusable banner UI patterns as server-driven Kotlin modules for **web, iOS, and Android**, configurable in the CMS or by AI agent; adopted by Expedia, Hotels.com, and Vrbo, saving Vrbo at least **1–2 sprints**.
 - Shipped the Hotels.com web redesign (React + Kotlin) to 100% of direct traffic, lifting **purchase conversion** +0.8%, shopping visits +0.5%, sign-ups +0.6%, and successful sign-ins +0.7%.
 - Led the migration of a React web service to AWS Graviton3 (ARM), validated with BlazeMeter load tests and Datadog, **cutting compute costs** ~20% (~$15K/month).
-- Built reusable merchandising banner UI patterns as server-driven Kotlin modules for **web, iOS, and Android**, adopted by Expedia, Hotels.com, and Vrbo; Vrbo reported saving at least **1–2 sprints of dev work**.
-- Designed the banners' configurable Kotlin DSL and shipped **65+ PRs** in under 4 months, letting teams launch campaigns from the CMS with no app release and cutting config records per banner from 2 to 1.
-- Built AI-assisted UI tooling with Claude Code and Figma MCP, including an agent skill that turns a Figma design into ready-to-review CMS banner records and a Figma-to-Kotlin pipeline with automated Playwright visual checks.
 
 ## Expedia Group, Software Development Engineer I
 
@@ -30,19 +31,17 @@ Full-stack engineer with 4+ years at Expedia Group, specializing in server-drive
 ## McGill Bird Observatory, Volunteer Software Developer
 
 - May 2023 – present
-- Built BirbsQuiz, a React + Firebase bird-identification quiz with regional audio and image sets, multilingual species names, and saved progress, for learning and public outreach.
-- Developed MBO Database, a React/TypeScript, Firebase, and Electron app for bird-banding operations, with offline caching, sync queues, reporting views, and species insights.
+- Built BirbsQuiz, a React + Firebase bird-ID quiz with regional audio and multilingual names, and MBO Database, a React/TypeScript + Electron bird-banding app with offline sync, extended with Claude Code.
 
 ## PolyHx (student club), VP of Technology
 
 - Aug 2020 – May 2022
-- Led development of ReadyAiCode, a virtual platform for a 24h AI game-bot hackathon, with a MEAN-stack dashboard and game interface backed by C# game servers.
-- Migrated the club's Kubernetes clusters and VMs from Azure to Google Cloud Platform with automated CI/CD.
+- Led development of ReadyAiCode, a platform for a 24h hackathon where teams coded game-playing AI bots (MEAN stack, C# game servers), and migrated club infra from Azure to Google Cloud with CI/CD.
 
 ## Heyday.ai, Software Development Engineer Intern
 
 - May 2020 – Aug 2020
-- Built and deployed 8+ chatbots with Node.js and AWS cloud functions alongside the AI and Design teams, adding price-drop and restock alerts through e-commerce APIs and Facebook Messenger.
+- Built 8+ conversational AI chatbots (Node.js, AWS) with price-drop and restock alerts via Messenger.
 
 # Education
 
@@ -55,5 +54,6 @@ Full-stack engineer with 4+ years at Expedia Group, specializing in server-drive
 
 # Skills
 
-- Technical: React, TypeScript, Kotlin, Node.js, server-driven UI, design systems, AWS/GCP, Claude Code, UX design
+- AI: Claude Code, agentic workflows, agent skills and plugins, MCP (Figma, Experience Manager), Playwright
+- Engineering: React, TypeScript, Kotlin, Node.js, server-driven UI, design systems, AWS/GCP, UX design
 - Languages: English (fluent), French (native), Chinese (native)
