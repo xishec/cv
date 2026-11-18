@@ -44,17 +44,17 @@
 #let design-highlights-nested-bullet = "-"
 #let design-highlights-top-margin = 1em
 #let design-highlights-left-margin = 0.4cm
-#let design-highlights-vertical-space-between-highlights = 1em
+#let design-highlights-vertical-space-between-highlights = 0.8em
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.5em
 #let design-entries-vertical-space-between-entries = 1.5em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0.2cm
-#let design-page-top-margin = 2cm
-#let design-page-bottom-margin = 2cm
-#let design-page-left-margin = 2cm
-#let design-page-right-margin = 2cm
+#let design-page-top-margin = 1.5cm
+#let design-page-bottom-margin = 1.5cm
+#let design-page-left-margin = 1.5cm
+#let design-page-right-margin = 1.5cm
 #let design-page-show-last-updated-date = false
 #let design-page-show-page-numbering = false
 #let design-links-underline = false
@@ -474,28 +474,6 @@
 
 
 
-== Education
-
-
-// YES DATE, YES DEGREE
-#three-col-entry(
-  left-column-width: 1cm,
-  left-content: [#strong[BS]],
-  middle-content: [
-    #strong[Stanford University], Software Engineering
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([GPA 3.92\/4 with Honorable mention.],[Admission Scholarship from the Polytechnique Foundation.],[1st place at 2017 Google Tech Challenge at Polytechnique Montreal.],[1st place Philip and Lily Malouf Award from school department.],)
-  ],
-  right-content: [
-    Montreal, QC, Canada
-
-2018 – 2022
-  ],
-)
-
-
-
 == Experience
 
 
@@ -509,7 +487,22 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led migration of React web service to AWS Graviton3 \(ARM\), using BlazeMeter & Datadog testing, cutting compute costs \~20\% \(\~\$15K\/month\).],[Created Mojo, a cross-platform server-driven UI framework, cutting feature implementation from 4 developers to 1, speeding delivery 60–80\%, reducing cleanup by 50\%, and eliminating many native releases.],[Delivered Hotels.com web redesign \(React + Kotlin\), rolled out to 100\% of direct traffic, boosting high-value engagement with +0.5\% shopping visits, +0.8\% purchase conversion, +0.6\% sign-ups, +0.7\% successful sign-ins.],)
+    #v(design-highlights-top-margin);#highlights([Built the configurable merch banner UI Patterns as server-driven Kotlin modules rendering natively on #strong[web, iOS and Android] for Expedia and Hotels.com, so campaigns launch from the CMS with no app release.],[Led the banner RFC's configurable-DSL workstream, shipping #strong[65+ PRs] in under 4 months \(responsive layouts, per-device configs, dismiss controls, shared analytics\) pixel-matched to the EGDS spec.],[Built AI-assisted UI tooling with Claude Code and Figma MCP, including a skill that turns a Figma frame into CMS banner records and a Figma-to-Kotlin-DSL pipeline with automated Playwright visual checks.],[Created Mojo, a cross-platform server-driven UI framework, cutting feature implementation from #strong[4 developers to 1], speeding delivery 60–80\%, reducing cleanup by 50\%, and eliminating many native releases.],[Led migration of React web service to AWS Graviton3 \(ARM\), using BlazeMeter & Datadog testing, #strong[cutting compute costs] \~20\% \(\~\$15K\/month\).],[Delivered Hotels.com web redesign \(React + Kotlin\) to 100\% of direct traffic, lifting shopping visits +0.5\%, #strong[purchase conversion] +0.8\%, sign-ups +0.6\% and successful sign-ins +0.7\%.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Expedia Group], Software Development Engineer I
+  ],
+  right-content: [
+    Aug 2022 – Oct 2023
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Built a web platform for Tier 1 server config management \(React, Kotlin, GitHub Actions\), enabling live dynamic updates, improved error handling, full change history, and conflict-free merges.],)
   ],
 )
 
@@ -531,21 +524,6 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Expedia Group], Software Development Engineer I
-  ],
-  right-content: [
-    Aug 2022 – Oct 2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Built a web platform for TIER 1 server config management \(React, Kotlin, GitHub Actions\), enabling live dynamic updates, improved error handling, full change history, and conflict-free merges.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[PolyHx student club], VP of Technology
   ],
   right-content: [
@@ -554,7 +532,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the development of ReadyAiCode, a virtual platform to host an 24h AI game bot hackathon.],[Implement a dashboard and a game interface using MEAN stack, and game hosting servers using C\#.],[Migrated Kubernetes and VMs from Azure to Google Cloud Platform with automated CI&CD.],)
+    #v(design-highlights-top-margin);#highlights([Led development of ReadyAiCode, a virtual platform hosting a 24h AI game-bot hackathon, with a MEAN-stack dashboard and game interface and C\# game-hosting servers.],[Migrated Kubernetes and VMs from Azure to Google Cloud Platform with automated CI\/CD.],)
   ],
 )
 
@@ -569,7 +547,29 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed and deployed 8+ chatbots using Node.js and AWS cloud functions by collaborating with AI Team and Design Team.],[Implemented new features like price drop and restock notification by using different E-commerce APIs and Facebook Messenger.],)
+    #v(design-highlights-top-margin);#highlights([Developed and deployed 8+ chatbots with Node.js and AWS cloud functions alongside the AI and Design teams, adding price-drop and restock notifications via e-commerce APIs and Facebook Messenger.],)
+  ],
+)
+
+
+
+== Education
+
+
+// YES DATE, YES DEGREE
+#three-col-entry(
+  left-column-width: 1cm,
+  left-content: [#strong[BS]],
+  middle-content: [
+    #strong[Polytechnique Montreal], Software Engineering
+    #v(-design-text-leading)
+
+    #v(design-highlights-top-margin);#highlights([GPA 3.92\/4 with Honorable mention, and Admission Scholarship from the Polytechnique Foundation.],[1st place at the 2017 Google Tech Challenge at Polytechnique Montreal, and 1st place Philip and Lily Malouf Award.],)
+  ],
+  right-content: [
+    Montreal, QC, Canada
+
+2018 – 2022
   ],
 )
 
@@ -579,7 +579,7 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming:] React with Typescript, Kotlin, Node.js, GCP and AWS DevOps, UX design]
+  content: [#strong[Technical:] React, TypeScript, Kotlin, Node.js, server-driven UI, design systems, AWS\/GCP, Claude Code, UX design]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
