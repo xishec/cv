@@ -478,7 +478,7 @@
 
 
 #one-col-entry(
-  content: [AI-first full-stack engineer with 4+ years at Expedia, shipping #strong[about half of production PRs] with coding agents and building agentic tools, including Claude Code skills, MCP integrations, and AI design-to-code pipelines.]
+  content: [AI-first full-stack engineer at Expedia with measurable wins \(+0.8\% #strong[purchase conversion], 60–80\% faster delivery, \~\$15K\/month saved\), now building AI agents and MCP tooling that turn Figma designs into ready-to-review UI.]
 )
 
 
