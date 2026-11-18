@@ -17,8 +17,8 @@
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.5em
 #let design-section-titles-type = "with-partial-line"
-#let design-section-titles-vertical-space-above = 0.5cm
-#let design-section-titles-vertical-space-below = 0.5cm
+#let design-section-titles-vertical-space-above = 0.4cm
+#let design-section-titles-vertical-space-below = 0.4cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = true
 #let design-text-font-size = 10pt
@@ -474,6 +474,14 @@
 
 
 
+== Summary
+
+
+#one-col-entry(
+  content: [Full-stack engineer with 4+ years at Expedia Group, specializing in server-driven UI and design systems. Created the Mojo framework and delivered +0.8\% conversion, 60–80\% faster feature delivery, and \~\$15K\/month in cloud savings.]
+)
+
+
 == Experience
 
 
@@ -487,7 +495,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Built the configurable merch banner UI Patterns as server-driven Kotlin modules rendering natively on #strong[web, iOS and Android] for Expedia and Hotels.com, so campaigns launch from the CMS with no app release.],[Led the banner RFC's configurable-DSL workstream, shipping #strong[65+ PRs] in under 4 months \(responsive layouts, per-device configs, dismiss controls, shared analytics\) pixel-matched to the EGDS spec.],[Built AI-assisted UI tooling with Claude Code and Figma MCP, including a skill that turns a Figma frame into CMS banner records and a Figma-to-Kotlin-DSL pipeline with automated Playwright visual checks.],[Created Mojo, a cross-platform server-driven UI framework, cutting feature implementation from #strong[4 developers to 1], speeding delivery 60–80\%, reducing cleanup by 50\%, and eliminating many native releases.],[Led migration of React web service to AWS Graviton3 \(ARM\), using BlazeMeter & Datadog testing, #strong[cutting compute costs] \~20\% \(\~\$15K\/month\).],[Delivered Hotels.com web redesign \(React + Kotlin\) to 100\% of direct traffic, lifting shopping visits +0.5\%, #strong[purchase conversion] +0.8\%, sign-ups +0.6\% and successful sign-ins +0.7\%.],)
+    #v(design-highlights-top-margin);#highlights([Created Mojo, a cross-platform server-driven UI framework that cut feature builds from #strong[4 developers to 1], sped delivery 60–80\%, halved A\/B test cleanup effort, and removed the need for many native app releases.],[Shipped the Hotels.com web redesign \(React + Kotlin\) to 100\% of direct traffic, lifting #strong[purchase conversion] +0.8\%, shopping visits +0.5\%, sign-ups +0.6\%, and successful sign-ins +0.7\%.],[Led the migration of a React web service to AWS Graviton3 \(ARM\), validated with BlazeMeter load tests and Datadog, #strong[cutting compute costs] \~20\% \(\~\$15K\/month\).],[Built reusable merchandising banner UI patterns as server-driven Kotlin modules for #strong[web, iOS, and Android], adopted by Expedia, Hotels.com, and Vrbo; Vrbo reported saving at least #strong[1–2 sprints of dev work].],[Designed the banners' configurable Kotlin DSL and shipped #strong[65+ PRs] in under 4 months, letting teams launch campaigns from the CMS with no app release and cutting config records per banner from 2 to 1.],[Built AI-assisted UI tooling with Claude Code and Figma MCP, including an agent skill that turns a Figma design into ready-to-review CMS banner records and a Figma-to-Kotlin pipeline with automated Playwright visual checks.],)
   ],
 )
 
@@ -502,7 +510,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Built a web platform for Tier 1 server config management \(React, Kotlin, GitHub Actions\), enabling live dynamic updates, improved error handling, full change history, and conflict-free merges.],)
+    #v(design-highlights-top-margin);#highlights([Built a web platform for managing Tier 1 server configs \(React, Kotlin, GitHub Actions\), with live updates, clearer error handling, full change history, and conflict-free merges.],)
   ],
 )
 
@@ -517,14 +525,14 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Built BirbsQuiz, a React + Firebase bird-identification quiz with region-based audio and image datasets, multilingual naming, and saved-progress flows for bird-learning and outreach.],[Developed MBO Database, a React\/TypeScript, Firebase, and Electron data management system for bird banding operations, including offline caching, sync queues, reporting views, and species insights.],)
+    #v(design-highlights-top-margin);#highlights([Built BirbsQuiz, a React + Firebase bird-identification quiz with regional audio and image sets, multilingual species names, and saved progress, for learning and public outreach.],[Developed MBO Database, a React\/TypeScript, Firebase, and Electron app for bird-banding operations, with offline caching, sync queues, reporting views, and species insights.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[PolyHx student club], VP of Technology
+    #strong[PolyHx \(student club\)], VP of Technology
   ],
   right-content: [
     Aug 2020 – May 2022
@@ -532,7 +540,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led development of ReadyAiCode, a virtual platform hosting a 24h AI game-bot hackathon, with a MEAN-stack dashboard and game interface and C\# game-hosting servers.],[Migrated Kubernetes and VMs from Azure to Google Cloud Platform with automated CI\/CD.],)
+    #v(design-highlights-top-margin);#highlights([Led development of ReadyAiCode, a virtual platform for a 24h AI game-bot hackathon, with a MEAN-stack dashboard and game interface backed by C\# game servers.],[Migrated the club's Kubernetes clusters and VMs from Azure to Google Cloud Platform with automated CI\/CD.],)
   ],
 )
 
@@ -547,7 +555,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed and deployed 8+ chatbots with Node.js and AWS cloud functions alongside the AI and Design teams, adding price-drop and restock notifications via e-commerce APIs and Facebook Messenger.],)
+    #v(design-highlights-top-margin);#highlights([Built and deployed 8+ chatbots with Node.js and AWS cloud functions alongside the AI and Design teams, adding price-drop and restock alerts through e-commerce APIs and Facebook Messenger.],)
   ],
 )
 
@@ -559,12 +567,12 @@
 // YES DATE, YES DEGREE
 #three-col-entry(
   left-column-width: 1cm,
-  left-content: [#strong[BS]],
+  left-content: [#strong[BEng]],
   middle-content: [
-    #strong[Polytechnique Montreal], Software Engineering
+    #strong[Polytechnique Montréal], Software Engineering
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([GPA 3.92\/4 with Honorable mention, and Admission Scholarship from the Polytechnique Foundation.],[1st place at the 2017 Google Tech Challenge at Polytechnique Montreal, and 1st place Philip and Lily Malouf Award.],)
+    #v(design-highlights-top-margin);#highlights([GPA 3.92\/4 with Honorable Mention; Admission Scholarship.],[1st place: 2017 Google Tech Challenge and Philip and Lily Malouf Award.],)
   ],
   right-content: [
     Montreal, QC, Canada
